@@ -10,12 +10,14 @@
 <h1>MUC Web Application</h1>
 
 <!-- Navigation Buttons -->
-<form method="get">
-    <button name="page" value="show_table">Show Table</button>
-    <button name="page" value="add_supplier">Add Supplier</button>
-    <button name="page" value="annual_expenses">Annual Expenses</button>
-    <button name="page" value="budget_projection">Budget Projection</button>
-</form>
+<div class="nav-buttons">
+    <form method="get">
+        <button name="page" value="show_table">Show Table</button>
+        <button name="page" value="add_supplier">Add Supplier</button>
+        <button name="page" value="annual_expenses">Annual Expenses</button>
+        <button name="page" value="budget_projection">Budget Projection</button>
+    </form>
+</div>
 
 <hr>
 

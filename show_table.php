@@ -1,5 +1,5 @@
 <h2>Show Table</h2>
-<form method="post">
+<form method="post" class="tables">
     <label>Enter Table Name:</label>
     <input type="text" name="table" required>
     <input type="submit" value="Show">

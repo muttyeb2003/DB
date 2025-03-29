@@ -1,6 +1,6 @@
 <h2>Add New Supplier</h2>
 
-<form method="post">
+<form method="post" class="supplier">
     <div>
         <label for="supplier_id">Supplier ID:</label>
         <input type="number" id="supplier_id" name="supplier_id" required>
