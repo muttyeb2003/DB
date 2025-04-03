@@ -4,8 +4,7 @@
     <input type="text" name="table" required>
     <input type="submit" value="Show">
 </form>
-<?php
-?>
+
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
