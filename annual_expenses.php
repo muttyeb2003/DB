@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<table border='1'><tr><th>Year</th><th>Total Spent</th></tr>";
         
         while ($row = $result->fetch_assoc()) {
-            echo "<tr><td>" . htmlspecialchars($row['year']) . "</td><td>" . htmlspecialchars($row['total_spent']) . "</td></tr>";
+            echo "<tr><td>" . htmlspecialchars($row['year']) . "</td><td>" . number_format($row['total_spent'], 2, '.', ' ') . "</td></tr>";
         }
         
         echo "</table>";
