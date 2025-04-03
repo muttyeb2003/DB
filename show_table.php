@@ -4,6 +4,9 @@
     <input type="text" name="table" required>
     <input type="submit" value="Show">
 </form>
+<?php
+require_once 'db.php'; // Now $pdo will be available here
+?>
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
