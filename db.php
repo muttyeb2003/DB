@@ -1,8 +1,8 @@
 <?php
 $host = 'dbcourse.cs.smu.ca';                
-$user = 'ux';         
-$pass = 'your password';         
-$db   = 'uxx'; 
+$user = 'u51';         
+$pass = 'considerSTRETCHEDthousands026';         
+$db   = 'u51'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
