@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     require_once 'db.php'; // ✅ Ensure database connection is included
 
     $table = $_POST['table'];
-    $allowedTables = ['parts', 'suppliers', 'orders', 'supplier_phones'];
+    $allowedTables = ['parts', 'suppliers', 'orders', 'supplier_phones','order_parts'];
 
     if (!in_array($table, $allowedTables)) {
         echo "<p style='color:red;'>❌ Invalid table name.</p>";
